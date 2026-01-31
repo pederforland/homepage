@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
 
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      
+      p {
+        padding: 10px 20px;
+      }
+    </style>
   </head>
   <body style="background-color: black;">
     <p style="color: white;">
       Helloooooo
     </p>
+    <button onclick="NewTab()">
+      Doomsday trainer
+    </button>
+    <script>
+      function NewTab() {
+        window.open(
+          "https://pederforland.github.io/Doomsday", "_blank"
+        ); 
+      }
+    </script>
   </body>
 </html>
